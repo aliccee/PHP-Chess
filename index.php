@@ -1,10 +1,7 @@
 <?php
 session_start();
 
-/**
- * Include the needed class file
- * @param string $classname The name of the class file to include
- */
+
 function autoloader($classname)
 {
     include 'classes/' . $classname . '.php';
